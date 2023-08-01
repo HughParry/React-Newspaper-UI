@@ -8,5 +8,8 @@ export interface InputProps {
   success?: boolean;
   disabled?: boolean;
   placeholder?: string;
+  orientation?: "horizontal" | "vertical";
+  inputLength?: number;
+  lineLength?: number;
   onChange?: ChangeEventHandler<HTMLInputElement>;
 }

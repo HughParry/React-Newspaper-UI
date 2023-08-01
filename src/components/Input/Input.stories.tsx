@@ -35,3 +35,18 @@ Success.args = {
   placeholder: 'Placeholder...',
   success: true,
 };
+
+export const HorizontalOrientation = Template.bind({});
+HorizontalOrientation.args = {
+  label: 'Horizontal',
+  placeholder: 'Placeholder...',
+  orientation: 'horizontal',
+};
+
+export const VerticalOrientation = Template.bind({});
+VerticalOrientation.args = {
+  label: 'Vertical',
+  placeholder: 'Placeholder...',
+  orientation: 'vertical',
+};
+

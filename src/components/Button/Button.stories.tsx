@@ -9,7 +9,7 @@ export default {
 const Template = (args) => <Button {...args} />;
 
 export const Primary = Template.bind({});
-Primary.args = { primary: true, size: 'medium', text: 'Primary Button' };
+Primary.args = { primary: true, size: 'medium', text: 'Primary Button', orientation: 'horizontal' };
 
 export const Secondary = Template.bind({});
 Secondary.args = { primary: false, size: 'medium', text: 'Secondary Button' };
