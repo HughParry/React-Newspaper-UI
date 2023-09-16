@@ -97,7 +97,7 @@ const StyledInput = styled.div<InputProps>`
 
   .line-top {
     top: -10px;
-    left: 0;
+    right: 0;
   }
 
   .line-bottom {

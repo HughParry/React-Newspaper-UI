@@ -23,7 +23,12 @@ const StyledCheckboxLabel = styled.label<CheckboxProps>`
   cursor: pointer;
   margin-right: 8px;
 
-  &::before,
+  &::before {
+    content: "";
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+  }
+  ,
   &::after {
     content: "";
     position: absolute;
@@ -36,14 +41,16 @@ const StyledCheckboxLabel = styled.label<CheckboxProps>`
     background-color: #353637;
     left: 0;
     top: -5px;
+    transition: all 0.3s ease-in-out;
   }
 
   &::after {
-    width: 2px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     background-color: #353637;
     left: -5px;
     top: 0;
+    transition: all 0.3s ease-in-out;
   }
 `;
 
